@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:Times,serif;
+    color:white;
+    background-color:#1B263B;
+}
+body .description{
+    font-size: 25px;
+}
+.container{
+    max-width:90rem;
+    margin:2rem auto;
+    padding:0px 2rem;
+}
+.header{
+    padding:2rem;
+    margin:1rem 0px;
+    text-align:center;
+}
+.header > .title{
+    font-size: 2.8rem;
+    margin-bottom:1rem;
+}
+.tribute{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    max-width:98rem;
+    margin:0px auto;
+    align-items:center;
+    padding:0px 0px 0px 10rem;
+}
+.tribute blockquote{
+    text-align:center;
+    font-size:1.8rem;
+}
+.tribute img{
+    height: 450px;
+    width: 300px;
+}
+.bio{
+    margin:2rem auto;
+    padding:0px 0.5rem;
+    max-width:40rem;
+
+}
+.bio > h2{
+    margin-bottom:1rem;
+    font-size:3rem;
+    line-height:1.2;
+}
+.bio > p{
+    font-size:2rem;
+}
+.bio > hr{
+    margin-top:2rem;
+}
